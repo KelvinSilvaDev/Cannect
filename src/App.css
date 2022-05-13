@@ -1,4 +1,9 @@
-.App {
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url(/src/Font/ITC\ Avant\ Garde\ Gothic\ Std\ Book.otf);
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +40,104 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.topBar {
+  background: #125950;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desconto {
+  width: 18%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 9px;
+}
+
+.giftIcon{
+  margin-right: 16px;
+  width: 34px;
+  height: 23px;
+}
+
+.giftCard {
+  width: 32%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 9px;
+  align-content: center;
+}
+
+.frete {
+  width: 32%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.frete p {
+  color: #fff;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.HomeHeader {
+  background: #5B945B;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 64px;
+  align-content: center;
+  align-items: center;
+}
+
+.menu nav a {
+  margin: 0 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btns button {
+  margin-left: 24px;
+  padding: 16px;
+  background-color: #5B945B;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 13px;
 }
