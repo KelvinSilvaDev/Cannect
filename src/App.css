@@ -50,7 +50,7 @@
 }
 
 
-.topBar {
+/* .topBar {
   background: #125950;
   display: flex;
   flex-wrap: nowrap;
@@ -58,7 +58,7 @@
   align-content: center;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 .desconto {
   width: 18%;
@@ -111,7 +111,7 @@
   margin-left: 16px;
 }
 
-.HomeHeader {
+/* .HomeHeader {
   background: #5B945B;
   color: #fff;
   width: 100%;
@@ -121,7 +121,7 @@
   padding: 24px 64px;
   align-content: center;
   align-items: center;
-}
+} */
 
 .menu nav a {
   margin: 0 16px;
