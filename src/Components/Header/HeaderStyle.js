@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { keyframes } from "styled-components";
 import { verdeEscuro, verdeClaro, textoEscuro } from "../UI/variaveis";
 
-const cabecalho = styled.div`
-background: 
-`;
+// const cabecalho = styled.div`
+// background: 
+// `;
 
 export const HeaderWrapp = styled.div`
 width: 100%;
